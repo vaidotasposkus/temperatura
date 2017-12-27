@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Temperatura</title>
-    <link href="css/vendor/bootstrap.min.css" type="text/css" />
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+
+<div class="container">
+    <div class="col-md-12 text-center mt-3">
+        <h1>Temperatūros skaičiavimas</h1>
+    </div>
+    <div class="col-md-12 mt-3">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label>Kelvinai</label>
+                    <input type="text" class="form-control" name="kelvin" placeholder="Įveskite temperatūrą kelvinais K" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label>Farenheitai</label>
+                    <input type="text" class="form-control" name="fahrenheit" placeholder="Įveskite temperatūrą Farenheitais F" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label>Celcijus</label>
+                    <input type="text" class="form-control" name="celsius" placeholder="Įveskite temperatūrą Celcijais C" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 <script src="js/vendor/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script src="js/vendor/popper.min.js" type="text/javascript"></script>
